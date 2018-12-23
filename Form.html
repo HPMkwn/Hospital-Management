@@ -1,0 +1,101 @@
+<html>
+
+<style>
+div {
+	background-color: WhiteSmoke ;
+	border-radius: 5px;
+	width: 60%;
+	padding: auto;
+
+}
+label{
+		font-style: italic;
+}
+label:hover{
+	background-color: LightGrey ;
+}
+input [type=text] {
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	border: none;
+	float: right;
+}
+input:hover{
+	background-color: DarkSeaGreen  ;
+}
+#row{
+	display: table;
+	clear: both;
+	content: none;
+}
+#first{
+	float: left;
+	padding-top: 0px;
+	width: 25%;
+}
+#second{
+	float: right;
+	width: 75%;
+}
+
+</style>
+<script>
+function Function() {
+    alert("Welcome");
+}
+function myFunction() {
+    alert("SUCCESS!!!");
+}
+</script>
+<body onload="Function()">
+<div>
+
+<legend><h1>Form</h1></legend>
+<div  id="row">
+	<div id="first">
+<label> First Name</label>
+</div>
+<div id="second">
+<input type="text" placeholder="First Nam...">
+</div>
+</div>
+<div id="row">
+	<div id="first">
+<label> Last Name</label>
+</div>
+<div id="second">
+<input type="text" placeholder="Last Name...">
+</div>
+</div>
+<div id="row">
+	<div id="first">
+<label> Date of Birth</label>
+</div>
+<div id="second">
+<input type="date">
+</div>
+</div>
+<div id="row">
+	<div id="first">
+<label>Address</label>
+</div>
+<div id="second">
+<input type=""></textarea>
+</div>
+</div>
+<div id="row">
+	<div id="first">
+<label> Email</label>
+</div>
+<div id="second">
+<input type="email">
+</div>
+</div>
+<div>
+	<button onclick="myFunction()">Submit</button>
+</div>
+</div>
+</body>
+</html>
